@@ -1,0 +1,24 @@
+
+string num1prompt, num2prompt, operatorPrompt, resultMessage
+double num1, num2, result
+char operator
+var operation 
+
+output num1prompt
+input num1
+output operatorPrompt
+input operator 
+output num2prompt
+input num2
+
+if operator = A
+	operation = addition
+if operator = S
+	operation = subtraction
+if operator = M
+	operation = multiplication
+if operator = D
+	operation = division
+	
+result = num1 operator num2
+output resultMessage + result 
