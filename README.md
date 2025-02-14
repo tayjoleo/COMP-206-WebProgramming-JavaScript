@@ -38,6 +38,7 @@ COMP-206-TodoApp-NodeJS/
 │   ├── style.css                # Application styles
 │── package.json                 # Node.js dependencies
 │── package-lock.json            # Dependency lock file
+│── JavaPseudo.txt               # Program pseudocode
 │── .gitignore                   # Ignored files (node_modules, etc.)
 ```
 
