@@ -22,9 +22,11 @@ This project applies:
 ## Repository Structure
 ```
 COMP-206-TodoApp-NodeJS/
-│── README.md                   # Project Overview
-│── app.js                       # Main server logic
-│── index.js                     # API documentation file
+│── README.md                    # Project Overview
+│── routes/                      # Main server logic
+│   ├── index.js                 # Home page template
+│   ├── todolist.js              # Shared layout template
+│── app.js                       # API documentation file
 │── todolist.js                  # API logic for CRUD operations
 │── database.js                  # Database connection
 │── db.js                        # SQL queries and data access
@@ -37,7 +39,6 @@ COMP-206-TodoApp-NodeJS/
 │── package.json                 # Node.js dependencies
 │── package-lock.json            # Dependency lock file
 │── .gitignore                   # Ignored files (node_modules, etc.)
-│── LICENSE                      # Open-source license (optional)
 ```
 
 ## How to Install & Run
